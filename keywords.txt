@@ -3,3 +3,5 @@ clear	KEYWORD2
 setString	KEYWORD2
 setDigit	KEYWORD2
 setDigitByCode	KEYWORD2
+scrollString	KEYWORD2
+blinkString	KEYWORD2
