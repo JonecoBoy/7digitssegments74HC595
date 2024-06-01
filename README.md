@@ -1,4 +1,4 @@
-# ShiftRegister 74HC595 Arduino Library
+# 7 Digits Segements with ShiftRegister 74HC595 Arduino Library
 
 This library simplifies the usage of multi 7 digits displays driven by 74hc595 shift register: 
 
