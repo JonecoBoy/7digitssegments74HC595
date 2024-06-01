@@ -1,0 +1,5 @@
+SevenSegmentDisplay74HC595	KEYWORD1
+clear	KEYWORD2
+setString	KEYWORD2
+setDigit	KEYWORD2
+setDigitByCode	KEYWORD2
