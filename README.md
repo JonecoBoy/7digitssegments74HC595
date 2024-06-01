@@ -50,3 +50,40 @@ display.scrollString("JONECO", false,500);
 PS: if fullscroll is set as true it will scroll the entire characters until all have passed to the screen. If set to false it will scroll until the last character will be poisitioned at the last digit.
 
 An **example** sketch can be found in this repository at [/examples/example/example.ino](https://github.com/JonecoBoy/7digitssegments74HC595/blob/master/examples/example/example.ino).
+
+## All available characters
+- 'a'
+- 'b'
+- 'c'
+- 'd'
+- 'e'
+- 'f'
+- 'g'
+- 'h'
+- 'i'
+- 'j'
+- 'l'
+- 'n'
+- 'o'
+- 'p'
+- 'r'
+- 's'
+- 't'
+- 'u'
+- 'y'
+- 'z'
+- 0
+- 1
+- 2
+- 3
+- 4
+- 5
+- 6
+- 7
+- 8
+- 9
+- '-'
+- '.'
+- '_'
+- '°'
+- ' '
