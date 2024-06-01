@@ -17,7 +17,7 @@ display.setDigit(3, 'C'); // Set digit 3 to 'C'
 ```
 NOTE: if you have a 4 digits and after that set just digits 2,3 the digits 0,1 will be the same as previous setted, unless you do a display.clear();
 
-
+## String method
 You can set a string:
 
 ```
@@ -34,7 +34,19 @@ display.setString(".AB.C");
 ```
 will show
 
+## Blink effect
+You can set a blink effect
+blinkString(String str, int blinkCount, unsigned int blinkDelayMs, unsigned int blankDelayMs);
+```
+display.blinkString("JONE", 10,500,500);
+```
+## Scrolling effect
+Fro bigger strings instead of beeing cropped, you can set a rolling effect
+scrollString(String str, bool fullScroll, unsigned int delayMs);
+```
+display.scrollString("JONECO", true,500);
+display.scrollString("JONECO", false,500);
+```
+PS: if fullscroll is set as true it will scroll the entire characters until all have passed to the screen. If set to false it will scroll until the last character will be poisitioned at the last digit.
 
-
-
-An **example** sketch can be found in this repository at [/examples/example/example.ino](https://github.com/Simsso/ShiftRegister74HC595/blob/master/examples/example/example.ino).
+An **example** sketch can be found in this repository at [/examples/example/example.ino](https://github.com/JonecoBoy/7digitssegments74HC595/blob/master/examples/example/example.ino).
